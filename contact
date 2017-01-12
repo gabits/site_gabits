@@ -1,0 +1,19 @@
+
+            <div class="col-md-9">
+                <form autocomplete="off">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" class="form-control" placeholder="Phone No.">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                    </div>
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    <div class="text-right">
+                        <a href="gabrieladvmininel@gmail.com" class="btn send-btn">Send</a>
+                    </div>
+                </form>
+            </div>
