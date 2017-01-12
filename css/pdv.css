@@ -1,0 +1,18 @@
+#zoom_02 {
+    max-width: 100%;
+    }
+
+#zoom_04c {
+    max-width: 100%;
+    }
+
+#img2 {
+    height: 200px;
+    background-image: url("../img/portfolio/planodevoo/06.jpg");
+    background-repeat: no-repeat;
+}
+
+.gallery-text {
+    border: none;
+    margin-top: 20px;
+}
