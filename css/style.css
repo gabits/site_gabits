@@ -292,7 +292,8 @@ a.left-btn span.fa.fa-angle-left {
 }
 
 .portfolio-item .hover-bg{
-	height: 280px;
+	height: 400px;
+	width: auto;
 	overflow: hidden;
 	position: relative;
 }
