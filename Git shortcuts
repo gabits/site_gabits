@@ -1,0 +1,8 @@
+commit
+checkout
+HEAD
+log
+checkout HEAD
+reset 
+merge
+branch
