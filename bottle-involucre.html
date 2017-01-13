@@ -34,7 +34,9 @@
     ================================================== -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="galleries/highslide.css"/>
+    <link rel="stylesheet" type="text/css" href="css/pdv.css"/>
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -65,85 +67,69 @@
 </div> <!--- End Off Canvas Side Menu -->
 
 <!-- Home Section -->
+
 <div id="menu-home">
     <div class="container text-center">
         <!-- Navigation -->
         <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
             <span class="fa fa-bars"></span>
         </nav>
-
     </div>
 </div>
 
 
-<div class="portfolio-page">s
+<div class id="pdv-home">
     <div class="container">
-        <div class="section-title text-center" id="pdv-home">
+        <div class="section-title text-center">
             <a href="index.html#works" class="left-btn page-scroll">
                 <span class="fa fa-angle-left"></span>
             </a>
-            <h3>Bidimensional Compositions</h3>
-            <h2>Typography Collages</h2>
+            <h3>Product Design</h3>
+            <h2>Bottle Involucre</h2>
             <hr>
-            <div class="space"></div>
-            <div class="row">
-                <div class="col-md-4 text-right">
-                    <div class="gallery-text">
-                        <p class="boards">These are the first works for a visual graphic discipline at FAU-USP that
-                            required work with
-                            original
-                            photographies taken of different typographies by student's choice in the streets of São
-                            Paulo,
-                            wich
-                            would be aesthetically explored through bidimensional collage and artistic
-                            interventions.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/portfolio/boards/01.jpg" class="highslide" onclick="return hs.expand(this)">
-                        <img class="boards" src="img/portfolio/boards/01.jpg" alt="Board 01"
-                             title="Click to enlarge"/></a>
-                </div>
 
-                <div class="col-md-4">
-                    <a href="img/portfolio/boards/02.jpg" class="highslide" onclick="return hs.expand(this)">
-                        <img class="boards" src="img/portfolio/boards/02.jpg" alt="Board 02"
-                             title="Click to enlarge"/></a>
+            <div class="space"></div>
+        </div>
+        <div class="pdv2">
+            <div class="col-md-1"></div>
+            <div class="col-md-3 text-right">
+                <div class="p-involucre">
+                    <h5>A case for a glass bottle developed in the need of using a single sheet of paper: a work
+                        exploring product design</h5>
+                    <p>
+                        The work's purposal involved the development of a case for a glass bottle using a single sheet
+                        of
+                        paper, that couldn't be glued or attached to anything else. The ideia involved the conceptions
+                        of
+                        logistics, material economy, tridimensional design, and spacial explore of shapes. I developed
+                        this
+                        casing inspired by flower's petals, aiming to work with curvy forms, also looking to use the
+                        minimum
+                        area of paper as possible to do so.</p>
                 </div>
             </div>
-            <div class="space"></div>
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="img/portfolio/boards/03.jpg" class="highslide" onclick="return hs.expand(this)">
-                        <img class="boards" src="img/portfolio/boards/03.jpg" alt="Board 02"
-                             title="Click to enlarge"/></a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/portfolio/boards/04.jpg" class="highslide" onclick="return hs.expand(this)">
-                        <img class="boards" src="img/portfolio/boards/04.jpg" alt="Board 02"
-                             title="Click to enlarge"/></a>
-                </div>
-                <div class="col-md-4">
-                    <a href="img/portfolio/boards/05.jpg" class="highslide" onclick="return hs.expand(this)">
-                        <img class="boards" src="img/portfolio/boards/05.jpg" alt="Board 02"
-                             title="Click to enlarge"/></a>
-                </div>
+            <div class="col-md-7">
+                <img id="zoom_05" class="involucre-img" src="img/portfolio/involucre-exp.png"
+                     data-zoom-image="img/portfolio/involucre-exp.png"/>
             </div>
-            <div class="space"></div>
-            <div class="space"></div>
-
-            <div class="container">
-                <div class="pull-left">
-                    <p>2017 © Gabriela M Valle </p>
-                </div>
-                <div class="pull-right">
-                    <a href="#pdv-home" class="page-scroll navpdv">Back to Top <span class="fa fa-angle-up"></span></a>
-                </div>
-            </div>
-            <div class="space"></div>
         </div>
     </div>
 </div>
+<div class="space"></div>
+<div class="text-center">
+    <a href="index.html#works" class="left-btn page-scroll">
+        <span class="fa fa-angle-left"></span>
+    </a>
+</div>
+<div class="container">
+    <div class="pull-left">
+        <p>2017 © Gabriela M Valle </p>
+    </div>
+    <div class="pull-right">
+        <a href="#pdv-home" class="page-scroll navpdv">Back to Top <span class="fa fa-angle-up"></span></a>
+    </div>
+</div>
+<div class="space"></div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -155,6 +141,7 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/typed.js"></script>
 <script type="text/javascript" src="galleries/highslide-with-gallery.js"></script>
+<script type="text/javascript" src="elevatezoom-master/jquery.elevatezoom.js"></script>
 <script type="text/javascript" src="js/gallery.js"></script>
 
 <!-- Javascripts
