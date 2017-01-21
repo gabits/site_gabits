@@ -1,0 +1,1 @@
+$("#zoom_mw").elevateZoom({scrollZoom : true, zoomWindowPosition: 9});

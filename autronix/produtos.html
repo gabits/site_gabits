@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Autronix</title>
+    <meta name="author" content="Gabriela M Valle">
+
+    <!-- Necessario para visualizacao responsiva por celular e tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Arquivos CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="fundo-primario">
+
+    <!-- Barra de Mavegacao -->
+    <div class="container-fluid">
+        <div class="row menu-navegacao">
+
+            <div class="col-md-6">
+                <div class="titulo">
+                    <h1><strong>AUTRONIX</strong>
+                        <small>Soluções em Automação</small>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <div class="col-md-6" id="barra-navegacao-container">
+                <div id="barra-navegacao">
+                    <ul class="nav nav-tabs navbar-right">
+                        <li class="menu-item"><a class="item" href="index.html">Sobre</a></li>
+                        <li class="menu-item active"><a class="item" href="produtos.html">Produtos</a></li>
+                        <li class="menu-item"><a class="item" href="servicos.html">Serviços</a></li>
+                        <li class="menu-item"><a class="item" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container fundo-secundario">
+        <h2>Produtos</h2>
+        <div class="row formatacao-esquerda quadro" id="produtos">
+            <div class="col-md-5" id="conversor-info">
+                <h3>Conversor ATX-05/24</h3>
+                <p>Um módulo conversor microprocessado com as seguintes características principais:</p>
+                <ul>
+                    <li class="list-group-item item-lista">Alimentação de 24 Vcc</li>
+                    <li class="list-group-item item-lista">Fonte de alimentação externa de 5 Vcc/300 mA para alimentação
+                        de régua linear, encoder, simulador de encoder de servoconversores, etc.
+                    </li>
+                    <li class="list-group-item item-lista">Filtragem digital de ruídos de modo comum</li>
+                    <li class="list-group-item item-lista">Entradas para 6 sinais (A, B, ZERO e seus complementos)</li>
+                    <li class="list-group-item item-lista">Não é necessário usar todos os sinais mas o complemento
+                        (sinal invertido) do sinal utilizado é obrigatório
+                    </li>
+                    <li class="list-group-item item-lista">Seis sinais de saída 24 Vcc (A, B, ZERO e seus
+                        complementos)
+                    </li>
+                    <li class="list-group-item item-lista">Freqüência máxima dos sinais 30 KHz</li>
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <img id="zoom_mw" class="img-responsive formatacao-direita" src="imagens/conversor.jpeg"
+                     data-zoom-image="imagens/conversor.jpeg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript e jQuery -->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript"
+        src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+<script type="text/javascript" src="js/produtos.js"></script>
+
+</body>
+</html>
