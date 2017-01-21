@@ -80,7 +80,7 @@ a:focus{
 
 
 #home{
-	background: url("../img/bg10.png");
+	background: url("../img/bg10.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -245,7 +245,7 @@ background-color: transparent;
 
 
 #about-me {
-    background: url(../img/bg11.png);
+    background: url(../img/bg11.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -456,7 +456,7 @@ ul.clients li{
 }
 
 #contact{
-	background: url(../img/bg6.png);
+	background: url(../img/bg6.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
