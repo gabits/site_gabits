@@ -20,4 +20,7 @@ if (hs.addSlideshow) hs.addSlideshow({
 });
 
 $("#zoom_02").elevateZoom({tint:true, tintColour:'#888888', tintOpacity:0.5, zoomWindowPosition: 6, zoomWindowHeight: 450, zoomWindowWidth:1200, borderSize: 1, easing:true});
+$("#zoom_05").elevateZoom({ zoomType				: "inner",
+  cursor: "crosshair"
+});
 $("#zoom_04c").elevateZoom({tint:true, tintColour:'#888888', tintOpacity:0.5, zoomWindowPosition: 14, zoomWindowHeight: 450, zoomWindowWidth:1200, borderSize: 1, easing:true});

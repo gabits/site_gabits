@@ -39,11 +39,23 @@ h4{
 	word-spacing: 2px;
 	color: #666666;
 }
+
+.home-name {
+    color: #35C299;
+}
+
+.h4-name {
+    color: #ffffff;
+}
+
 h5{
+    color: #35C299;
 	text-transform: uppercase;
 	font-size: 12px;
 	word-spacing: 2px;
 }
+
+
 h6{
 	text-transform: uppercase;
 	font-size: 10px;
@@ -68,7 +80,7 @@ a:focus{
 
 
 #home{
-	background: url(../img/bg9.jpg);
+	background: url("../img/bg10.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -98,6 +110,7 @@ a:focus{
 
 .content{
 	padding-top: 16%;
+	color: #C53528;
 }
 .header-text.btn{
 	border: 1px solid #ffffff;
@@ -232,7 +245,7 @@ background-color: transparent;
 
 
 #about-me {
-    background: url(../img/bg7.png);
+    background: url(../img/bg11.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -248,7 +261,7 @@ a.down-btn span.fa.fa-angle-down {
 	padding: 7px 5px;
 	position: -1
 	cursor: pointer;
-	color: #C53528;
+	color: #ffffff;
 	margin-top: 30px;
 }
 
@@ -261,7 +274,7 @@ a.up-btn span.fa.fa-angle-up {
 	padding: 7px 5px;
 	position: -1
 	cursor: pointer;
-	color: #C53528;
+	color: #ffffff;
 	margin-top: 30px;
 }
 
@@ -274,7 +287,7 @@ a.left-btn span.fa.fa-angle-left {
 	padding: 5px 10px 5px 7px;
 	position: -1
 	cursor: pointer;
-	color: #C53528;
+	color: #ffffff;
 	margin-top: 20px;
 }
 
@@ -287,10 +300,6 @@ a.left-btn span.fa.fa-angle-left {
 }
 
 
-.portfolio-item {
-    border: 2px solid #C53528;
-}
-
 .portfolio-item .hover-bg{
 	height: 400px;
 	width: auto;
@@ -299,6 +308,7 @@ a.left-btn span.fa.fa-angle-left {
 }
 
 .hover-bg .hover-text {
+	border: 5px solid #444444;
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
@@ -394,11 +404,12 @@ ul.clients li{
 }
 
 .portrait {
+    background-color: rgba(51, 51, 51, .4);
+    font-size: .9em;
 	border: 1px solid #c3c3c3;
-	text-align: center;
 	height: 10em;
-	padding: 35px 35px;
-	opacity: 0.7;
+	padding: 25px;
+	opacity: 0.9;
 	transition: all 0.8s;
 	height: 320px;
 	margin-bottom: 90px;
@@ -520,9 +531,6 @@ nav#footer{
   width: 280px;
 }
 
-.portfolio {
-    margin: 30px 30px 30px 30px;
-}
 
 .pdv-img {
     border: 1px solid #cccccc;
@@ -607,6 +615,37 @@ nav#footer{
 	font-size: .895em;
 }
 
+.p-involucre{
+	border: 1px solid #cccccc;
+	padding: 20px;
+	font-size: .96em;
+}
+
 .pdv2 {
 margin-left: -30px;
+}
+
+.involucre-img {
+    width: 100%;
+    }
+
+#zoom_05 {
+    border: 1px solid #cccccc;
+}
+
+.img-dr {
+    height: 320px;
+    border: 1px solid #aaaaaa;
+}
+
+.img-dr2 {
+    height: 360px;
+    border: 1px solid #cccccc;
+}
+
+
+.dr-bg {
+    background-color: #454545;
+    padding: 30px;
+    padding-top: 0px;
 }

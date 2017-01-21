@@ -8,12 +8,12 @@
   display: inline-block;
   padding: 10px 18px;
   margin-bottom: 10px;
-  background: #555555;
+  background: #676767;
   border: none;
   border-radius: 7px;
   border: #85241B;
   color: #85241B;
-  font-size: 16px;
+  font-size: 17.5px;
   cursor: pointer;
 }
 
@@ -38,6 +38,7 @@
 /* ---- button-group ---- */
 
 .button-group:after {
+  text-align: center;
   margin: 0 auto;
   content: '';
   display: block;
