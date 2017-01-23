@@ -301,8 +301,6 @@ a.left-btn span.fa.fa-angle-left {
 
 
 .portfolio-item .hover-bg{
-	height: 400px;
-	width: auto;
 	overflow: hidden;
 	position: relative;
 }
@@ -620,6 +618,21 @@ nav#footer{
 	padding: 20px;
 	font-size: .96em;
 }
+
+.autronix-text h5 {
+	font-size: 1.2em;
+}
+
+.autronix-text {
+	border: 1px solid #cccccc;
+	padding: 20px;
+	font-size: 1em;
+}
+
+.autronix-img {
+    width: 100%;
+}
+
 
 .pdv2 {
 margin-left: -30px;
