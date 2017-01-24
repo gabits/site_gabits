@@ -6,14 +6,14 @@
 
 .button {
   display: inline-block;
-  padding: 10px 18px;
+  padding: 0.52em;
   margin-bottom: 10px;
   background: #676767;
   border: none;
   border-radius: 7px;
   border: #85241B;
   color: #85241B;
-  font-size: 17.5px;
+  font-size: 1em;
   cursor: pointer;
 }
 

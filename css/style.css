@@ -22,7 +22,7 @@ h1{
 
 h2{
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 2em;
 	color: #eeeeee
 }
 h3{
@@ -35,17 +35,19 @@ h3{
 
 h4{
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 1.3em;
 	word-spacing: 2px;
 	color: #666666;
 }
 
 .home-name {
+    font-size: 1.5em;
     color: #35C299;
 }
 
 .h4-name {
     color: #ffffff;
+    font-size: 1.8em;
 }
 
 h5{
@@ -63,10 +65,16 @@ h6{
 	letter-spacing: 2px;
 }
 
-p{
+p {
 	font-weight: 400;
-    color: #eeeeee
+	font-size: 1em;
+    color: #eeeeee;
 }
+
+#about-me p {
+    font-size: 1.3em;
+}
+
 hr{
 	width: 50px;
 	border-color: #C53528;
@@ -159,18 +167,7 @@ span.typed-cursor {
 	top: -5px;
 	position: relative;
 }
-/*.header-text{
-	margin-top: 20px;	
-	position: absolute;
-	border: 1px solid #ffffff;
-	left: 25%;
-	right: 25%;
-}
-.header-text h1{
-	padding: 20px;
-	position: relative;
-	margin: 0 auto;
-}*/
+
 nav#menu span.fa.fa-bars{
 	font-size: 30px;
 	position: fixed;
@@ -241,6 +238,10 @@ background-color: transparent;
 #works,
 #about-me{
 	padding: 90px 0;
+}
+
+#works, #welcome p {
+    font-size: 1.2em;
 }
 
 
@@ -371,7 +372,7 @@ a.btn.read-more-btn{
 	word-spacing: 2px;
 	padding: 7px 30px;
 	border-radius: 2px;
-	font-size: 12px;
+	font-size: 1.2em;
 	color: #ffffff;
 	transition: all 0.5s;
 }
@@ -410,15 +411,15 @@ ul.clients li{
 
 .portrait {
     background-color: rgba(51, 51, 51, .4);
-    font-size: .9em;
+    font-size: 1em;
 	border: 1px solid #c3c3c3;
-	height: 10em;
-	padding: 25px;
-	opacity: 0.9;
+	height: 40em;
+	padding: 2em;
+	opacity: 0.8;
 	transition: all 0.8s;
-	height: 320px;
-	margin-bottom: 90px;
+	margin-bottom: 6em;
 }
+
 .portrait:hover.hire,
 .portrait.hire{
 	height: 340px;
@@ -441,11 +442,14 @@ ul.clients li{
 .portrait img {
     attachment: fixed;
     align: center
-	width: 150px;
-	height: 150px;
+	width: 17em;
+	height: 17em;
 	margin: 0 auto;
 }
 
+.small {
+    font-size:1.2em;
+}
 
 .owl-theme .owl-controls .owl-page span {
 	display: block;
@@ -467,6 +471,8 @@ ul.clients li{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
+	min-height: 70em;
+	max-height:75em;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	color: #ffffff;
@@ -504,7 +510,7 @@ address:before{
 }
 address{
 	font-style: italic;
-	font-size: 16px;
+	font-size: 1.8em;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -520,7 +526,14 @@ nav#footer{
 }
 #footer a{
 	color: #ffffff;
+	font-size: 1.8em;
 }
+
+
+#footer p{
+	font-size: 1.8em;
+}
+
 #footer a:hover{
 	color: #C53528;}
 
@@ -554,15 +567,17 @@ nav#footer{
 .intro-txt {
     margin-top: 0px;
 	border: 1px solid #cccccc;
-	padding: 19px 18px;
+	padding: 1.2em;
 	font-size: .89em;
+	min-height: 25.9em;
 }
 
 .pdv-txt {
     margin-top: 20px;
 	border: 1px solid #cccccc;
-	padding: 15px 19px 5px 19px;
+	padding: 1.2em;
 	font-size: .88em;
+	min-height: 24.7em;
 }
 
 .pdv-txt-img {
@@ -616,8 +631,9 @@ nav#footer{
 
 .p-pdv2 {
 	border: 1px solid #cccccc;
-	padding: 15px;
+	padding: 1.2em;
 	font-size: .895em;
+	min-height: 34em;
 }
 
 .p-involucre{
@@ -634,6 +650,7 @@ nav#footer{
 	border: 1px solid #cccccc;
 	padding: 20px;
 	font-size: 1em;
+	min-height: 31.5em;
 }
 
 .autronix-img {
@@ -668,4 +685,8 @@ margin-left: -30px;
     background-color: #454545;
     padding: 30px;
     padding-top: 0px;
+}
+
+.fa {
+    font-size: 2em;
 }
