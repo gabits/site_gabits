@@ -86,7 +86,7 @@ a:focus{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 710px;	
+	min-height: 70em;
 	padding-top: 60px;
 	color: #ffffff;
 }
@@ -351,6 +351,13 @@ a.left-btn span.fa.fa-angle-left {
 	border-top: 2px solid #f1f1f1;
 	margin: 0 auto
 }
+
+
+.hover-bg img {
+    width: 100%;
+    height: 100%;
+}
+
 
 .hover-text p.lead{
 	color: #C53528;
